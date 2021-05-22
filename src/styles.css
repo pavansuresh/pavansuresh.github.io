@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+.menu-list{
+    float: right;
+  }
+  
+  .menu-list li{
+     list-style-type: none;
+     float: left;
+     padding: 10px 10px;
+  }
+  
+  .menu-list li a{
+    color: aliceblue;
+  }
+  
+  .menu-list li.active{
+    border-bottom: 2px solid whitesmoke;
+  }
+  
+  .menu-list li a:hover{
+    text-decoration: none
+  
+  }

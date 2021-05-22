@@ -1,0 +1,43 @@
+
+  header{
+    background-color: #038bd9;
+    padding:25px 0px;
+    border-top: 3px solid #ed0a0a;
+    height: 125px;
+  }
+  
+  .menu-list{
+    float: right;
+  }
+  
+  .menu-list li{
+     list-style-type: none;
+     float: left;
+     padding: 10px 10px;
+  }
+  
+  .menu-list li a{
+    color: #e6e6e6;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  .menu-list li.active{
+    border-bottom: 2px solid whitesmoke;
+  }
+  
+  .menu-list li a:hover{
+    text-decoration: none;
+    color:white;
+  }
+
+  .router-link-active {
+    color: white;
+    border-bottom: 2px solid red;  
+    font-weight: 600;    
+}
+
+.login-btn{
+  background-color: #0c6090;
+  padding: 10px 20px;
+}
